@@ -1,0 +1,217 @@
+{
+    "language_name": "中文（简体）",
+    "ui": {
+        "main_window": {
+            "title": "无缝联机MOD管理器",
+            "tabs": {
+                "main": "主窗口",
+                "settings": "设置",
+                "readme": "使用说明",
+                "changlog": "更新日志",
+                "game_session": "游戏会话",
+                "ersc_settings": "无缝联机设置",
+                "save_backup": "存档备份"
+            },
+            "menu": {
+                "help": "帮助",
+                "about": "关于",
+                "check_app_updates": "检查无缝联机管理器更新",
+                "check_mod_updates": "检查无缝联机模组更新"
+            },
+            "status": {
+                "version": {
+                    "app": "应用版本: {}",
+                    "mod": {
+                        "unknown": "无缝联机版本: 未知",
+                        "not_found": "无缝联机版本: 未找到",
+                        "found": "无缝联机版本: {}"
+                    }
+                }
+            },
+            "status_ready": "已就绪"
+        },
+        "settings": {
+            "title": "设置",
+            "game_path": {
+                "title": "游戏路径",
+                "label": "游戏路径:",
+                "browse_button": "浏览",
+                "select_game_folder": "选择艾尔登法环游戏文件夹"
+            },
+            "gameplay": {
+                "title": "游戏性",
+                "allow_invaders": "允许入侵者",
+                "death_debuffs": "死亡惩罚",
+                "allow_summons": "允许召唤",
+                "overhead_display": "玩家头顶显示:",
+                "display_options": {
+                    "normal": "正常",
+                    "none": "无",
+                    "player_ping": "玩家延迟",
+                    "player_soul_level": "玩家灵魂等级",
+                    "player_death_count": "玩家死亡次数",
+                    "soul_level_and_ping": "灵魂等级和延迟"
+                },
+                "skip_splash": "跳过启动画面",
+                "volume": "默认启动音量:"
+            },
+            "scaling": {
+                "title": "缩放",
+                "enemy_health": "敌人生命值缩放 (%):",
+                "enemy_damage": "敌人伤害缩放 (%):",
+                "enemy_posture": "敌人韧性缩放 (%):",
+                "boss_health": "Boss生命值缩放 (%):",
+                "boss_damage": "Boss伤害缩放 (%):",
+                "boss_posture": "Boss韧性缩放 (%):"
+            },
+            "password": {
+                "title": "密码",
+                "coop_password": "联机密码:"
+            },
+            "save": {
+                "title": "保存",
+                "extension": "存档文件扩展名:"
+            },
+            "language": {
+                "title": "语言",
+                "override": "MOD语言覆盖:",
+                "select_language": "选择应用语言"
+            },
+            "save_button": "保存设置",
+            "settings_saved": "设置已保存",
+            "saved_message": "你的设置已保存到 {}",
+            "game_session": {
+                "share": "分享你的游戏会话",
+                "title": "游戏会话",
+                "username": "用户名",
+                "message": "消息",
+                "save_folder": "Steam ID",
+                "character": "字符",
+                "save_folder_select": "选择 Steam ID",
+                "character_select": "选择角色"
+            },
+            "launcher": {
+                "title": "无缝联机启动器",
+                "game_exe": "无缝联机启动程序",
+                "auto_check_updates": "自动更新",
+                "select_game_exe": "选择无缝联机启动exe文件"
+            },
+            "settings_error": "保存设置出错",
+            "mod_path_error": "请检查是否使用了正确的游戏路径!",
+            "mod_settings_error": "发生错误 {}",
+            "reset_button": "重置设置",
+            "steam": {
+                "steam_settings": "Steam 设置",
+                "run_steam_silently": "静默启动steam",
+                "steam_exe": "Steam.exe",
+                "auto_detect": "自动选择",
+                "steam_stauts": "Steam 状态",
+                "running": "正在运行",
+                "not_running": "停止运行",
+                "steam_found": "寻找 Steam.exe",
+                "steam_not_found": "没有找到Steam.exe，请手动输入路径",
+                "steam_path_required": "你必须手动输入Steam.exe的路径"
+            },
+            "reset_settings": "重置设置",
+            "rest_confirmation": "你确定要重置所有设置到默认吗?",
+            "backup": {
+                "backup_settings": "备份设置",
+                "save_file_type": "保存文件类型:",
+                "dir": "备份文件位置:",
+                "backup_Interval": "自动存档间隔（分钟）:",
+                "backup_notify": "启用提示音",
+                "key_binds": "键位绑定",
+                "max_backups": "最大备份存档数:",
+                "select_dir": "选择备份位置"
+            }
+        },
+        "about": {
+            "title": "关于",
+            "content": "无缝联机MOD管理器\n版本: {}\n\n此应用程序帮助你更新和管理艾尔登法环的无缝联机MOD。\n\n创建者: 2Pz"
+        },
+        "game_session": {
+            "username": "用户名",
+            "message": "消息",
+            "password": "联机密码",
+            "refresh": "刷新",
+            "search_placeholder": "搜索游戏会话",
+            "stat": {
+                "stat_for": "{} 的统计",
+                "level": "级别：{}",
+                "stats": "Stats",
+                "values": "统计",
+                "vigor": "生命力",
+                "mind": "集中力",
+                "endurance": "耐力",
+                "strength": "力气",
+                "dexterity": "灵巧",
+                "intelligence": "智力",
+                "faith": "信仰",
+                "arcane": "感应"
+            }
+        },
+        "main": {
+            "launch_button": "启动无缝联机"
+        },
+        "save_backup": {
+            "auto_backup_not_running": "自动存档：未运行",
+            "backup_name": "备份存档名",
+            "date": "日期",
+            "save_backup": "保存备份",
+            "load_backup": "读取备份",
+            "delete": "删除",
+            "start_auto_backup": "开始自动备份",
+            "stop_auto_backup": "停止自动备份",
+            "confirm_delete_title": "确认删除",
+            "confirm_delete?": "你确定你要删除这个备份吗？",
+            "backup_deleted": "备份删除成功！",
+            "backup_not_deleted": "备份删除失败: {}",
+            "backup_auto_backup_running": "自动存档：正在运行 ({} 每分钟)",
+            "backup_auto_backup_not_running": "自动备份：未运行"
+        }
+    },
+    "messages": {
+        "update": {
+            "checking": "正在检查更新...",
+            "latest_installed": "你已经是最新版本: {}。\n你想要重新安装吗?",
+            "up_to_date": "你已经在使用最新版本。",
+            "downloading": "正在下载 {}...",
+            "extracting_updates": "正在提取更新...",
+            "last_version_installed": "已安装最新版本",
+            "extracting": "正在提取文件...",
+            "updating_settings": "正在更新设置...",
+            "complete": "成功更新到 {}!",
+            "update_error": "更新过程中出现错误",
+            "update_complete": "更新完成",
+            "update_status": "更新状态",
+            "update_available": "有可用更新",
+            "app_updated": "新版本无缝联机管理器 SeamlessCo-opManager_{}.exe 已下载。\n你可以删除这个版本。",
+            "new_version_downloading": "新版本 {} 可用，正在下载...",
+            "download_app?": "新的无缝联机管理器版本可用!\n\n当前版本: {}\n最新版本: {}\n\n想要现在升级吗?",
+            "download_mod?": "新的无缝联机模组版本可用!\n\n当前版本: {}\n最新版本: {}\n\n想要现在升级吗?",
+            "update_cancelled": "更新已取消",
+            "show_about": "无缝联机MOD管理器\n版本: {}\n\n此应用程序帮助你更新和管理无缝联机MOD。\n\n创建者: {}"
+        },
+        "errors": {
+            "path_required": "请在设置选项卡中输入艾尔登法环MOD安装路径。",
+            "fetch_latest_version": "无法获取最新版本: {}",
+            "update_error_check": "检查更新时出现错误: {}",
+            "share_game_error": "似乎服务器可能出现问题。请检查你的互联网连接或稍后再试。",
+            "share_game_error_title": "无法分享游戏会话",
+            "Api_limit": "超出API速率限制，请稍后再试!",
+            "launch_error_title": "无缝联机启动出错",
+            "game_exe_not_found": "未找到无缝联机启动器!\n请确认是否使用了正确的无缝联机启动程序路径",
+            "no_game_exe": "请确认是否使用了正确的无缝联机启动程序路径!",
+            "backup_settings": "请在设置页面配置备份设置。",
+            "backup_create": "创建备份失败: {}"
+        }
+    },
+    "lables": {
+        "success": "成功",
+        "error": "错误",
+        "yes": "是",
+        "no": "否",
+        "ok": "Ok",
+        "cancel": "取消"
+    }
+}
