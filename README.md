@@ -1,2 +1,1 @@
-# SCarp_imgbed
-个人图床
+Shang_Carp的github个人图床
