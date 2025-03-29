@@ -148,7 +148,7 @@ function EU_Monitor.update()
     end    
 
     -- 准备输出数据
-    local currentEU = currentEU
+  
     local fiveSecAvg = calculateAverage(EU_Monitor.secondEU, 5)/20
     local minuteAvg = calculateAverage(EU_Monitor.secondEU, 60)/20
     local fiveMinAvg = calculateAverage(EU_Monitor.secondEU, 300)/20
@@ -162,10 +162,30 @@ function EU_Monitor.update()
     print(string.format("可用功率(小时): %.0f EU/hour (%s)", currentEU/3600/20, getGTInfo(currentEU/3600/20)))
     print(string.format("可用功率(天): %.0f EU/day (%s)", currentEU/3600/20/24, getGTInfo(currentEU/3600/20/24)))
     
-    print(string.format("每五秒功耗均值: %s EU/t (%s)", toColorString(fiveSecAvg), getGTInfo(fiveSecAvg)))
-    print(string.format("每分钟功耗均值: %s EU/t (%s)", toColorString(minuteAvg), getGTInfo(minuteAvg)))
-    print(string.format("五分钟功耗均值: %s EU/t (%s)", toColorString(fiveMinAvg), getGTInfo(fiveMinAvg)))
-    print(string.format("每小时功耗均值: %s EU/t (%s)", toColorString(hourAvg), getGTInfo(hourAvg)))
+    if #EU_Monitor.secondEU <5 then
+        print("每五秒功耗均值:统计中")
+    else
+        print(string.format("每五秒功耗均值: %s EU/t (%s)", toColorString(fiveSecAvg), getGTInfo(fiveSecAvg)))
+    end
+
+    if #EU_Monitor.secondEU <60 then
+        print("每分钟功耗均值:统计中")
+    else
+        print(string.format("每分钟功耗均值: %s EU/t (%s)", toColorString(minuteAvg), getGTInfo(minuteAvg)))
+    end
+
+    if #EU_Monitor.secondEU <300 then
+        print("五分钟功耗均值:统计中")
+    else
+        print(string.format("五分钟功耗均值: %s EU/t (%s)", toColorString(fiveMinAvg), getGTInfo(fiveMinAvg)))
+    end
+    
+    if #EU_Monitor.secondEU <3600 then
+        print("每小时功耗均值:统计中")
+    else
+        print(string.format("每小时功耗均值: %s EU/t (%s)", toColorString(hourAvg), getGTInfo(hourAvg)))
+    end
+     
 end
 
 -- 开始主程序
